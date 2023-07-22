@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aspirant_Validation_Rule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>App User should not be able to add new certification voucher request in system if there is any pending request exist for that employee</description>
+    <externalId>false</externalId>
+    <label>Aspirant Validation Rule</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

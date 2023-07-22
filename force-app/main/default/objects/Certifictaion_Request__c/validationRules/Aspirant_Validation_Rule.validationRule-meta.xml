@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aspirant_Validation_Rule</fullName>
+    <active>true</active>
+    <description>App User should not be able to add new certification voucher request in system if there is any pending request exist for that employee.</description>
+    <errorConditionFormula>Aspirant_Validation_Rule__c  = true</errorConditionFormula>
+    <errorDisplayField>Aspirant__c</errorDisplayField>
+    <errorMessage>This Employee already has a pending request for other certification.</errorMessage>
+</ValidationRule>

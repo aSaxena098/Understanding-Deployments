@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voucher_Validation_Rule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>App User should not be able to raise same certification voucher request again if one already exist in the system</description>
+    <externalId>false</externalId>
+    <label>Voucher Validation Rule</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
